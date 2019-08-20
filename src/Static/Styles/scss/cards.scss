@@ -1,0 +1,95 @@
+main {
+  min-height: 100%;
+  .category-search-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    .category-selector {
+      width: 250px;
+      height: 50px;
+      font-size: 30px;
+      margin-left: 5%;
+      border-width: 2px;
+    }
+    input {
+      margin-right: 5%;
+      width: 248px;
+      height: 48px;
+      padding: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+  .card-container {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    .card-item {
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      &:hover {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+      }
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      height: 500px;
+      margin: 25px;
+      img {
+        margin-top: 20px;
+        width: 200px;
+        height: 250px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .addToCart-button {
+        min-width: 80%;
+        text-align: center;
+        background: rgb(155, 26, 26);
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid white;
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        &:hover { 
+          cursor: pointer;
+          border: solid 2px white;
+        }
+      }
+    }
+  }
+  .nav-card-bar {
+    display: none;
+    text-align: center;
+    list-style: none;
+    .arrow-card-next {
+      font-size: 64px;
+      padding: 12px;
+      color: rgb(155, 26, 26);
+      &:hover {
+        cursor: pointer;
+        color: red;
+      }
+    }
+    .num-card {
+      text-decoration: none;
+      font-size: 24px;
+      padding: 12px;
+      margin: 12px;
+    }
+  }
+}
