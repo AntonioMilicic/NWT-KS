@@ -1,5 +1,7 @@
 main {
   min-height: 100%;
+  width: 80%;
+  margin-left: 10%;
   .category-search-container {
     display: flex;
     justify-content: space-between;
@@ -9,15 +11,15 @@ main {
     .category-selector {
       width: 250px;
       height: 50px;
-      font-size: 30px;
       margin-left: 5%;
+      margin-right: 2.5%;
+      font-size: 30px;
       border-width: 2px;
     }
     input {
+      width: 250px;
       margin-right: 5%;
-      width: 248px;
-      height: 48px;
-      padding: 0;
+      margin-left: 2.5%;
       font-size: 22px;
       text-align: center;
     }
@@ -49,10 +51,10 @@ main {
       }
       p {
         font-size: 18px;
-        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
       }
       h2 {
-        font-size: 30px;
+        font-size: 26px;
         font-weight: bold;
       }
       .addToCart-button {

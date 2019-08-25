@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './HeaderForm/Header.js';
 import Footer from './FooterForm/Footer.js';
-import CardHolder from './CardForm/CardHolder.js';
+import ProductForm from './ProductForm/CardHolder.js';
 import Home from './HomeForm/Home.js';
 import SignUpForm from './SignUpLogInForm/SignUp.js';
 import LogInForm from './SignUpLogInForm/LogIn.js';
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Route exact path = "/" component = {Home} />
         <Route exact path = "/blog" component = {Blog} />
-        <Route path = "/category" component = {CardHolder} />
+        <Route path = "/products" component = {ProductForm} />
         <Route path = "/login" component = {LogInForm} />
         <Route path = "/signup" component = {SignUpForm} />
         <Route path = "/cart" component = {CartHolder} />

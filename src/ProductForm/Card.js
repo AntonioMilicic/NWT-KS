@@ -6,12 +6,12 @@ const card = (props) => {
       <img src={props.image} alt="cardImg" />
       <div>
         <h2>{props.name}</h2>
-        <p>Service: {props.service}</p>
-        <p>Price: {props.price}</p>
+        <p><b>Service:</b> {props.service}</p>
+        <p><b>Price:</b> {props.price}</p>
       </div>
       <button className="addToCart-button">AddToCart</button>
     </li>
-  );
+  )
 }
 
 export default card;

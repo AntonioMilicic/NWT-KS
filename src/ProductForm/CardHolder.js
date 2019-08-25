@@ -14,13 +14,13 @@ class cardHolderComponent extends Component {
       search: '',
       filteredItems: []
     }
-  };
+  }
 
   async componentDidMount() {
     const categories = await fetchCategories();
     const filteredItems = filterItems(categories, this.state.selectedCategory, this.state.search);
     this.setState({ categories, filteredItems });
-  };
+  }
 
   handleCategoryChange(event) {
     const selectedCategory = event.target.value;
@@ -34,7 +34,8 @@ class cardHolderComponent extends Component {
     this.setState({ search, filteredItems });
   }
 
-  render() {
+  render(){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     const selectionField = Object.keys(this.state.categories)
       .map((selectCategory) => (
         <Category
@@ -61,7 +62,7 @@ class cardHolderComponent extends Component {
           value={this.state.selectedCategory} 
           onChange={(e)=>this.handleCategoryChange(e)}
           >
-            <option value="">Select category:</option>
+            <option value="">All categories</option>
             {selectionField}
           </select>
 
@@ -76,15 +77,8 @@ class cardHolderComponent extends Component {
         <div className="card-container">   
           {cards}
         </div>
-        <div className="nav-card-bar">
-          <i className="fa fa-angle-double-left arrow-card-next" />
-          <a className="num-card" href="1">1</a>
-          <a className="num-card" href="1">2</a>
-          <a className="num-card" href="1">3</a>
-          <i className="fa fa-angle-double-right arrow-card-next" />
-        </div>
       </main>
-    );
+    )
   }
 }
 

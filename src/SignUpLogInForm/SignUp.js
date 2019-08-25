@@ -41,15 +41,15 @@ class signUpForm extends Component {
     }
     else {
       const documentParagraph = document.getElementById("error-paragraph");
-      documentParagraph.innerHTML = "I'm sorry. Seems like passwords don't match or they are too short. Try again :-)";
+      documentParagraph.innerHTML = "I'm sorry.<br/>Seems like passwords don't match or they are too short.<br/>Try again <span role='img' aria-label='smile'>&#128533;</span>";
       this.setState({
         cssClass: "error-state"
       })
       setTimeout(() => {
-        documentParagraph.innerHTML = "Lets try again. Please enter your credentials :-)";
+        documentParagraph.innerHTML = "Lets try again.<br/>Please enter your credentials <span role='img' aria-label='smile'>&#128526;</span>";
         this.setState({ cssClass: "" });
         this.handleClearingPassword();
-      }, 5000);
+      }, 4000);
     }
   }
 
@@ -70,13 +70,14 @@ class signUpForm extends Component {
   }
 
   render(){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     return (
       <div className="sign-form">
         <div className="sign-container">
 
           <div className="message-container">
             <img src="/images/Signup/signUp.png" alt="sign" className="sign-image" />
-            <p id="error-paragraph">Hello, I'm your personal assistant Passy. Please enter your credentials :-)</p>
+            <p id="error-paragraph">Hello,<br/>I'm your personal assistant Passy.<br/>Please enter your credentials <span role="img" aria-label="smile">&#128526;</span></p>
           </div>
           
           <div className="input-sign-field">

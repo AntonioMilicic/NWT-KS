@@ -1,1 +1,1 @@
-footer{width:100%;background:linear-gradient(black,gray);box-shadow:0 0 25px #000;height:150px;color:#fff;text-align:center}footer div p{padding-top:20px;margin:0}
+footer{display:flex;align-items:center;flex-direction:column;height:200px;min-width:100%;background:linear-gradient(black,gray);color:#fff;text-align:center}footer div p{padding-top:20px;margin:0}footer button{margin-top:40px;width:160px;height:40px;font-size:18px;border-radius:10px;font-weight:700;background-color:#bea511}footer button:hover{cursor:pointer;border:none}

@@ -1,5 +1,6 @@
 header {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   background-image: url('/images/Header/headerImage.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -45,32 +46,56 @@ header {
       color: white;
       text-shadow: 4px 4px 5px rgba(black, 0.8);
       font-size: 32px;
-      padding: 15px;
+      padding: 5px 15px;
       margin: 15px;
       &:hover {
-          color: red;
+          color: rgb(226, 194, 14);
       }
       transition: all 0.6s cubic-bezier(.25,.8,.25,1);
     }
   }
-  .active {
-    color: red;
-  }
+}
+.active {
+  color: rgb(226, 194, 14);
+  border-bottom: solid 2px rgb(226, 194, 14);
+}
+.sticky-header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+.sticky-header + .home-component {
+  padding-top: 165px;
+}
+.sticky-header + .card-holder-container {
+  padding-top: 160px;
+}
+.sticky-header + .blog-container {
+  padding-top: 184px;
+}
+.sticky-header + .cart-holder-container {
+  padding-top: 180px;
+}
+.sticky-header + .sign-form {
+  padding-top: 160px;
+}
+.sticky-header + .blogPostFull-container {
+  padding-top: 180px; 
 }
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 1000px) {
+  header {
+    min-width: 100%;
+    margin-left: 0;
+  }
+  .sticky-header {
+    position: static;
+  }
   header nav {
     margin: 0;
     .right-nav {
       display: none;
-    }
-    .left-nav {
-      margin-top: 15px;
-      padding-left: 10px;
-      a {
-        padding: 15px;
-        margin: 15px;
-      }
     }
     .dropdown {
       display: inline-block;
@@ -78,10 +103,10 @@ header {
     }
     .dropdown-content {
       display: none;
-      position: absolute;
+      position: fixed;
       right: 0;
       background-color: white;
-      z-index: 1;
+      z-index: 101;
       min-width: 100px;
     }
     .dropdown-content a {
@@ -97,6 +122,24 @@ header {
       border-bottom: solid 1px;
       margin: 0;
     }
+  }
+  .sticky-header + .home-component {
+    padding-top: 0;
+  }
+  .sticky-header + .card-holder-container {
+    padding-top: 0;
+  }
+  .sticky-header + .blog-container {
+    padding-top: 0;
+  }
+  .sticky-header + .cart-holder-container {
+    padding-top: 0;
+  }
+  .sticky-header + .sign-form {
+    padding-top: 0;
+  }
+  .sticky-header + .blogPostFull-container {
+    padding-top: 0; 
   }
 }
 

@@ -50,7 +50,7 @@ class Carousel extends Component {
     this.setState({ selectedCarousel, intervalId });
   }
 
-  render() {
+  render(){
     return (
       <div className="carousel-container">
         <article className="carousel-display" id={this.state.carousel[this.state.selectedCarousel].cssId}>

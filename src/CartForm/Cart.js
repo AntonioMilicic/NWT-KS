@@ -4,11 +4,11 @@ const cart = () => {
   return (
     <li className="cart-container">
       <div className="cart-user">
-        <img className="cart-user-img" alt="cart-cards" src={process.env.PUBLIC_URL + '/images/Blogs/userImage1.png'} />
+        <img className="cart-user-img" alt="cart-cards" src={'/images/Blogs/User/userImage1.png'} />
         <ul className="cart-user-info">
-          <li>Name: Neko Ime </li>
-          <li>Email: Nesto </li>
-          <li>Profession: Nesto</li>
+          <li><b>Name:</b> Neko Ime </li>
+          <li><b>Email:</b> Nesto </li>
+          <li><b>Profession:</b> Nesto</li>
         </ul>
       </div>
       <div className="cart-description">
@@ -22,7 +22,7 @@ const cart = () => {
         <i className="fa fa-trash remove-from-cart"></i>
       </div>
     </li>
-  );
+  )
 }
 
 export default cart;
