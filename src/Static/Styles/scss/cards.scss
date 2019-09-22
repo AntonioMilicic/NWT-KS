@@ -24,6 +24,29 @@ main {
       text-align: center;
     }
   }
+  .create-card {
+    text-decoration: none;
+    .create-card-button {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      width: 50%;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 10px;
+      background: linear-gradient(to bottom, #d4622d, #b11c1c);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      border: 1px solid white;
+      color: white;
+      &:hover { 
+        cursor: pointer;
+        box-shadow: none;
+      }
+    }
+  }
   .card-container {
     margin-top: 20px;
     text-align: center;
@@ -32,18 +55,29 @@ main {
     justify-content: space-around;
     margin: auto;
     .card-item {
+      position: relative;
       transition: all 0.3s cubic-bezier(.25,.8,.25,1);
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
       &:hover {
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
       }
       list-style-type: none;
+      overflow: auto;
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 300px;
       height: 500px;
       margin: 25px;
+      .remove-user-product {
+        position: absolute;
+        font-size: 36px;
+        color: darkred;
+        right: 0;
+        &:hover {
+          cursor: pointer;
+        }
+      }
       img {
         margin-top: 20px;
         width: 200px;
@@ -57,10 +91,13 @@ main {
         font-size: 26px;
         font-weight: bold;
       }
+      .update-link {
+        min-width: 80%;
+      }
       .addToCart-button {
         min-width: 80%;
         text-align: center;
-        background: rgb(155, 26, 26);
+        background: linear-gradient(to bottom, #d4622d, #b11c1c);
         font-size: 20px;
         border-radius: 10px;
         border: 1px solid white;

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import '../Static/Styles/css/carousel.min.css';
 
 class Carousel extends Component {
@@ -26,13 +26,16 @@ class Carousel extends Component {
       ]
     };
   }
+
   componentDidMount() {
     const intervalId = setInterval(() => this.changeSelectedCarousel('next'), 15000);
     this.setState({intervalId: intervalId});
   }
+
   componentWillUnmount() {
     clearInterval(this.state.intervalId);
   }
+
   changeSelectedCarousel(command) {
     let selectedCarousel = this.state.selectedCarousel;
     const lastIndex = this.state.carousel.length - 1;
@@ -50,7 +53,7 @@ class Carousel extends Component {
     this.setState({ selectedCarousel, intervalId });
   }
 
-  render(){
+  render() {
     return (
       <div className="carousel-container">
         <article className="carousel-display" id={this.state.carousel[this.state.selectedCarousel].cssId}>

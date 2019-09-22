@@ -1,6 +1,5 @@
 import React from 'react';
-// eslint-disable-next-line
-import  { BrowserRouter as Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const blogPost = (props) => {
   return(
@@ -21,21 +20,19 @@ const blogPost = (props) => {
           {props.text}
         </p>
         <NavLink exact to = {{
-          pathname:'/blog/blogpost/', 
-          state: {
-            image: props.image,
-            imageFull: props.imageFull,
-            name: props.name,
-            email: props.email,
-            posts: props.posts,
-            blogTitle: props.blogTitle,
-            text: props.text,
-            fullText: props.fullText
-          }
+         pathname:'/blog/blogpost/', 
+         state: {
+          image: props.image,
+          imageFull: props.imageFull,
+          name: props.name,
+          email: props.email,
+          posts: props.posts,
+          blogTitle: props.blogTitle,
+          text: props.text,
+          fullText: props.fullText
+         }
         }}>
-          <button className="post-link">
-            Expand
-          </button>
+          <button className="post-link">Expand</button>
         </NavLink>
       </div>
     </li>

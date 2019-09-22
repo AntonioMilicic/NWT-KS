@@ -29,12 +29,13 @@
     padding: 0;
   }
 }
-.cart-user-image {
+.cart-user-img {
   width: 200px;
   height: 200px;
 }
 .cart-description {
   padding: 0 15px;
+  overflow: auto;
 }
 
 .input-field-cart {
@@ -57,4 +58,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .cart-user-img {
+    width: 150px;
+    height: 150px;
+  }
 }

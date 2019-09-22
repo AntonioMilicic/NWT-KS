@@ -5,15 +5,14 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 0 25px black;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   h1 {
     color: white;
-    text-shadow: 4px 4px 5px rgba(black, 0.8);
     font-style: italic;
     font-size: 48px;
     margin-top: 0px;
     text-align: center;
-    padding-top: 20px;
+    text-shadow: 2px 2px black;
   }
   nav {
     display: flex;
@@ -21,11 +20,9 @@ header {
     justify-content: space-between;
     .left-nav {
       margin-bottom: 10px;
-      margin-top: 15px;
     }
     .right-nav {
       margin-bottom: 10px;
-      margin-top: 15px;
     }
     .dropdown {
       display: none;
@@ -43,21 +40,21 @@ header {
     }
   div a {
       text-decoration: none;
+      font-style: italic;
       color: white;
-      text-shadow: 4px 4px 5px rgba(black, 0.8);
       font-size: 32px;
       padding: 5px 15px;
       margin: 15px;
       &:hover {
-          color: rgb(226, 194, 14);
+        color: lightskyblue;
       }
       transition: all 0.6s cubic-bezier(.25,.8,.25,1);
     }
   }
 }
 .active {
-  color: rgb(226, 194, 14);
-  border-bottom: solid 2px rgb(226, 194, 14);
+  color: lightskyblue;
+  border-bottom: solid 2px lightskyblue;
 }
 .sticky-header {
   position: fixed;
@@ -65,26 +62,29 @@ header {
   top: 0;
 }
 .sticky-header + .home-component {
-  padding-top: 165px;
+  padding-top: 150px;
 }
 .sticky-header + .card-holder-container {
-  padding-top: 160px;
+  padding-top: 150px;
 }
 .sticky-header + .blog-container {
-  padding-top: 184px;
+  padding-top: 150px;
 }
 .sticky-header + .cart-holder-container {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 .sticky-header + .sign-form {
-  padding-top: 160px;
+  padding-top: 150px;
 }
 .sticky-header + .blogPostFull-container {
-  padding-top: 180px; 
+  padding-top: 145px; 
+}
+.sticky-header + .create-product-form {
+  padding-top: 140px;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   header {
     min-width: 100%;
     margin-left: 0;
@@ -94,6 +94,9 @@ header {
   }
   header nav {
     margin: 0;
+    .left-nav {
+      margin-top: 10px;
+    }
     .right-nav {
       display: none;
     }
@@ -121,6 +124,11 @@ header {
       border-left: solid 1px;
       border-bottom: solid 1px;
       margin: 0;
+      &:hover {
+        transition: none;
+        color: #b11c1c;
+        border-bottom: 1px solid #b11c1c;
+      }
     }
   }
   .sticky-header + .home-component {
@@ -140,6 +148,9 @@ header {
   }
   .sticky-header + .blogPostFull-container {
     padding-top: 0; 
+  }
+  .sticky-header + .create-product-form {
+    padding-top: 0;
   }
 }
 

@@ -1,25 +1,26 @@
 import React from 'react';
 
-const cart = () => {
+const cart = (props) => {
   return (
     <li className="cart-container">
       <div className="cart-user">
-        <img className="cart-user-img" alt="cart-cards" src={'/images/Blogs/User/userImage1.png'} />
+        <img className="cart-user-img" alt="cart-cards" src={props.image} />
         <ul className="cart-user-info">
-          <li><b>Name:</b> Neko Ime </li>
-          <li><b>Email:</b> Nesto </li>
-          <li><b>Profession:</b> Nesto</li>
+          <li><b>Name:</b> {props.name} </li>
+          <li><b>Profession:</b> {props.service}</li>
+          <li><b>Price:</b> {props.price}</li>
         </ul>
       </div>
       <div className="cart-description">
         <h1>Description</h1>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Felis donec et odio pellentesque diam volutpat commodo sed egestas.
+          {props.description}
         </p>
       </div>
       <div className="cart-controler">
+        {/* input trenutno ne radi nista */}
         <input className="input-field-cart" type="number" min="1" placeholder="1" />
-        <i className="fa fa-trash remove-from-cart"></i>
+        <i className="fa fa-trash remove-from-cart" onClick={()=> props.delete(props.id)}></i>
       </div>
     </li>
   )

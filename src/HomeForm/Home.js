@@ -4,7 +4,7 @@ import Carousel from './Carousel.js';
 import About from './About.js';
 
 class homeComponent extends Component {
-  render(){
+  render() {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
     return (
       <div className="home-component">

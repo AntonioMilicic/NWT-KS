@@ -1,19 +1,14 @@
-export function filterItems(categories, selectedCategory, search) {
+export function filterItems(items, selectedCategory, search) {
   let filteredItems = [];
   const categoryIsSelected = !!selectedCategory;
   const searchExists = !!search;
   if (categoryIsSelected) {
-    const selectedCategoryExists = !!categories[selectedCategory];
+    const selectedCategoryExists = !!items;
     if (selectedCategoryExists) {
-      filteredItems.push(...categories[selectedCategory]);
+      filteredItems.push(...items.filter(item => item.category.includes(selectedCategory)));
     }
   } else {
-    Object.keys(categories).forEach((key) => {
-      if (categories.hasOwnProperty(key)) {
-        const categoryItems = [...categories[key]];
-        filteredItems.push(...categoryItems);
-      }
-    });
+    filteredItems.push(...items);
   }
   if (searchExists) {
     filteredItems = filteredItems.filter(item => item.name.toLowerCase().includes(search.toLowerCase()));

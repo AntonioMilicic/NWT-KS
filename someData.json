@@ -344,7 +344,7 @@
   "category": {
       "Cleaning": [
         { 
-          "id": "1",
+          "id": "0",
           "image": "/images/Cards/card-first.jpg",
           "name": "CleanMeUp",
           "service": "CleanMeUp",
@@ -352,7 +352,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         { 
-          "id": "2",
+          "id": "1",
           "image": "/images/Cards/card-second.png",
           "name": "Cleaning EveryWhere",
           "service": "Frida Frida",
@@ -360,7 +360,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         { 
-          "id": "3",
+          "id": "2",
           "image": "/images/Cards/card-third.png",
           "name": "Cleaning",
           "service": "Neki Tamo",
@@ -368,7 +368,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         { 
-          "id": "4",
+          "id": "3",
           "image": "/images/Cards/card-forth.jpg",
           "name": "CleaningSplit",
           "service": "Prika Prika",
@@ -376,7 +376,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         { 
-          "id": "5",
+          "id": "4",
           "image": "/images/Cards/card-fifth.png",
           "name": "Offers Cleaning",
           "service": "Mate Matic",
@@ -384,7 +384,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "6",
+          "id": "5",
           "image": "/images/Cards/card-sixth.png",
           "name": "Cleaning",
           "service": "Jura Džunglić",
@@ -394,7 +394,7 @@
       ],
       "Construction": [
         {
-          "id": "1",
+          "id": "6",
           "image": "/images/Cards/card-sixth.png",
           "name": "Construct",
           "service": "Jura Džunglić",
@@ -402,7 +402,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "2",
+          "id": "7",
           "image": "/images/Cards/card-sixth.png",
           "name": "Some const",
           "service": "Jura Džunglić",
@@ -410,7 +410,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "3",
+          "id": "8",
           "image": "/images/Cards/card-sixth.png",
           "name": "Random const",
           "service": "Jura Džunglić",
@@ -418,7 +418,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "4",
+          "id": "9",
           "image": "/images/Cards/card-sixth.png",
           "name": "Consti",
           "service": "Jura Džunglić",
@@ -428,7 +428,7 @@
       ],
       "Teaching": [
         {
-          "id": "1",
+          "id": "10",
           "image": "/images/Cards/card-sixth.png",
           "name": "Teach",
           "service": "Jura Džunglić",
@@ -436,7 +436,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "2",
+          "id": "11",
           "image": "/images/Cards/card-sixth.png",
           "name": "Some teach",
           "service": "Jura Džunglić",
@@ -444,7 +444,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "3",
+          "id": "12",
           "image": "/images/Cards/card-sixth.png",
           "name": "Random teach",
           "service": "Jura Džunglić",
@@ -452,7 +452,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-          "id": "4",
+          "id": "13",
           "image": "/images/Cards/card-sixth.png",
           "name": "teachy",
           "service": "Jura Džunglić",
@@ -460,5 +460,12 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
       ]
-  }
+  },
+  "credentials": [
+    {
+      "email": "toni@fesb.hr",
+      "username": "antonio",
+      "password": "123456"
+    }
+  ]
 }

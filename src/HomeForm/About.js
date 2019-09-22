@@ -21,12 +21,15 @@ const about = () => {
         <li>Sign Up, signing up grants you acess to more options, once you have joined us.</li>
         <li>Cart, where you will find items you chose to buy.</li>
       </ol>
-      <h1>Example:</h1>
+      <h1>Example of usage</h1>
       <p>
-        Lets start from the beggining. Click on the...
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices vitae auctor eu augue ut lectus. Odio morbi quis commodo odio aenean. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+        Lets start from the beginning.<br/><br/>
+        You are curently on the "home" link of this website.<br/> 
+        By clicking on the "blog" link, which is contained on the top of the page, you will be redirected to blog page.<br/>
+        All the basic information can be found on regular blog cards.
         <br/><img src="/images/Home/about/about-blog.png" alt="about"/><br/>
-        Sit amet consectetur adipiscing elit. Malesuada bibendum arcu vitae elementum curabitur. Dictum non consectetur a erat nam at lectus urna duis. Sit amet porttitor eget dolor morbi non arcu. Enim nunc faucibus a pellentesque. Ullamcorper a lacus vestibulum sed. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Sed nisi lacus sed viverra. Lobortis elementum nibh tellus molestie. Fringilla est ullamcorper eget nulla facilisi etiam.
+        Each blog has its own extended version, which you can acess by clicking on the "Expand" button.<br/>
+        If you find yourself wanting to move one step back, you can use "Back to blog" button.
         <br/><img src="/images/Home/about/about-blog-expand.png" alt="about"/><br/>
         Diam in arcu cursus euismod. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Vitae purus faucibus ornare suspendisse sed nisi. Scelerisque eu ultrices vitae auctor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Vitae aliquet nec ullamcorper sit amet risus nullam eget felis.
         <br/><img src="/images/Home/about/about-products.png" alt="about"/><br/>

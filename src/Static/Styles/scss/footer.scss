@@ -15,15 +15,15 @@ footer {
     margin-top: 40px;
     width: 160px;
     height: 40px;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 10px;
+    border: 1px solid white;
     font-weight: bold;
-    background-color: rgb(190, 165, 17);
+    color: white;
+    background: linear-gradient(to bottom, #d4622d, #b11c1c);
     &:hover {
       cursor: pointer;
       border: none;
     }
-    
-    
   }
 }
