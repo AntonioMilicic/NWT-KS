@@ -42,9 +42,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### gulp watch
 Start Gulp script to edit scss files and convert them to minified versions of css for browser usage.
 
-## Fake API server
+## API server
 
-### json-server --watch db.json --p 4000
-Start fake API server to fatch needed data from db.json file. Data is read from [http://localhost:4000](http://localhost:4000) port.<br/>Without It web page will not work properly.
-
-This is a temporary solution and It will be updated with Node.js server with Express framework in the near future.
+### nodemon ./server/server.js
+Start API server to fatch needed data from local DB. Because of that, web page wont work on any other computer, since there is no seed,
+and web page is not deployed yet.
+Data is read from [http://localhost:4000](http://localhost:4000) port.<br/>Without It web page will not work properly.
